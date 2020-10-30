@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/btnSubmit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_16dp"
+    android:layout_marginLeft="@dimen/_16dp"
+    android:layout_marginRight="@dimen/_16dp"
+    android:background="@color/_a2001e"
+    android:text="@string/ux_submit"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/edtRepoName" />
+
+  <androidx.appcompat.widget.AppCompatEditText
+    android:id="@+id/edtRepoName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_16dp"
+    android:layout_marginLeft="@dimen/_16dp"
+    android:layout_marginRight="@dimen/_16dp"
+    android:background="@drawable/edt_bg"
+    android:hint="@string/hint_repo_name"
+    android:textColor="@color/_000000"
+    android:textColorHint="@color/_c3c3c3"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/edtOwnerName"
+    tools:text="@string/hint_repo_name" />
+
+  <androidx.appcompat.widget.AppCompatEditText
+    android:id="@+id/edtOwnerName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/_16dp"
+    android:layout_marginRight="@dimen/_16dp"
+    android:background="@drawable/edt_bg"
+    android:hint="@string/hint_owner_name"
+    android:textColor="@color/_000000"
+    android:textColorHint="@color/_c3c3c3"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:text="@string/hint_owner_name" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

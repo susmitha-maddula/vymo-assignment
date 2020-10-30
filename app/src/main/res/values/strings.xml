@@ -1,0 +1,14 @@
+<resources>
+  <string name="app_name">Vymo Assignment</string>
+  <string name="hint_owner_name">Github owner name</string>
+  <string name="hint_repo_name">Repo Name</string>
+  <string name="ux_submit">SUBMIT</string>
+  <string name="ux_owner_name_must">Please enter owner name.</string>
+  <string name="ux_repo_name_must">Please enter repo name.</string>
+  <string name="ux_error">Some error happenned, Please try again later.</string>
+  <string name="pull_title">"Pull Title : "</string>
+  <string name="pr_number">"PR Number : "</string>
+  <string name="pull_status">"Pull Status : ""</string>
+  <string name="created">"Created : "</string>
+  <string name="ux_progress">Loading...Please wait...</string>
+</resources>
